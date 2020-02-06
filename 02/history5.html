@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wireless Bluetooth Speaker</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.text1 {
+			top: 40%;
+			font-size: 20pt;
+			animation: text 1.5s 1;
+			letter-spacing: 1px;
+		}
+		.text2 {
+			top: 45%;
+			font-size: 20pt;
+			animation: text 2s 1;
+			letter-spacing: 1px;
+		}
+		.text3 {
+			top: 50%;
+			font-size: 20pt;
+			animation: text 2.5s 1;
+			letter-spacing: 1px;
+		}
+		.text4 {
+			top: 55%;
+			font-size: 20pt;
+			animation: text 3s 1;
+			letter-spacing: 1px;
+		}
+		.text5 {
+			top: 60%;
+			font-size: 20pt;
+			animation: text 3.5s 1;
+			letter-spacing: 1px;
+		}
+
+		@keyframes text {
+	0%{
+		color: black;		
+		}
+		50% {
+			letter-spacing: 4px;
+			
+		}
+		100% {
+			letter-spacing: 1px;			
+		}
+	}
+
+		.left h1 {
+		font-size: 40pt;}
+
+		.right h1 {
+		font-size: 25pt;}
+	
+	</style>
+</head>
+
+<body>
+
+	<div class="center">
+		<span class="text1">Basically, Bluetooth transports data using radio signals.</span>
+		<span class="text2">The difference between Bluetooth and other wireless</span>
+		<span class="text3"> devices that use radio waves is distance. Bluetooth </span>
+		<span class="text4"> broadcasts over a much smaller area than things like</span>
+		<span class="text5"> mobile phones and television broadcasts.</span>
+	</div>
+
+	<a href="history6.html">
+		<div class="left">
+			<h1>&#8249;</h1>
+			</div>
+	</a>
+
+
+	<a href="history4.html" >
+		<div class="right">
+			<h1> &#8250; </h1>
+			</div>
+	</a>
+
+
+	<script type="text/javascript">
+		var color = 200;
+
+setInterval( function(){
+	color = color + 1;
+	document.body.style.backgroundColor = "hsl(" + color + ", 60%, 50%)";
+}, 3000 / 60 );
+
+	</script>
+</body>
+</html>

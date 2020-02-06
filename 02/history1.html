@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wireless Bluetooth Speaker</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.text1 {
+			top: 40%;
+			font-size: 25pt;
+			animation: text 1.5s 1;
+			letter-spacing: 1px;
+		}
+		.text2 {
+			top: 45%;
+			font-size: 25pt;
+			animation: text 2s 1;
+			letter-spacing: 1px;
+		}
+		.text3 {
+			top: 50%;
+			font-size: 25pt;
+			animation: text 2.5s 1;
+			letter-spacing: 1px;
+		}
+		.text4 {
+			top: 55%;
+			font-size: 25pt;
+			animation: text 3s 1;
+			letter-spacing: 1px;
+		}
+		.text5 {
+			top: 65%;
+			font-size: 25pt;
+			animation: text 3.5s 1;
+			letter-spacing: 1px;
+		}
+
+		@keyframes text {
+	0%{
+		color: black;		
+		}
+		50% {
+			letter-spacing: 5px;
+			
+		}
+		100% {
+			letter-spacing: 1px;			
+		}
+	}
+
+		.left h1 {
+		font-size: 40pt;}
+
+		.right h1 {
+		font-size: 15pt;}
+	
+	</style>
+</head>
+
+<body>
+
+	<div class="center">
+		<span class="text1">Wireless speakers have been around</span>
+		<span class="text2">for a number of years. Larry Schotz applied</span>
+		<span class="text3"> for a patent for a digital wireless </span>
+		<span class="text4"> wireless speaker system as far back as 1994.</span>
+	</div>
+
+
+	<a href="history2.html">
+		<div class="left">
+			<h1>&#8249;</h1>
+			</div>
+	</a>
+
+
+	<a href="index.html" >
+		<div class="right">
+			<h1> home </h1>
+			</div>
+	</a>
+
+
+	<script type="text/javascript">
+		var color = 200;
+
+setInterval( function(){
+	color = color + 1;
+	document.body.style.backgroundColor = "hsl(" + color + ", 12%, 50%)";
+}, 3000 / 60 );
+
+	</script>
+</body>
+</html>

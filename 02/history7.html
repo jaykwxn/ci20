@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wireless Bluetooth Speaker</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.text1 {
+			top: 40%;
+			font-size: 20pt;
+			animation: text 1.5s 1;
+			letter-spacing: 1px;
+		}
+		.text2 {
+			top: 45%;
+			font-size: 20pt;
+			animation: text 2s 1;
+			letter-spacing: 1px;
+		}
+		.text3 {
+			top: 50%;
+			font-size: 20pt;
+			animation: text 2.5s 1;
+			letter-spacing: 1px;
+		}
+		.text4 {
+			top: 55%;
+			font-size: 20pt;
+			animation: text 3s 1;
+			letter-spacing: 1px;
+		}
+		.text5 {
+			top: 60%;
+			font-size: 20pt;
+			animation: text 3.5s 1;
+			letter-spacing: 1px;
+		}
+
+		@keyframes text {
+	0%{
+		color: black;		
+		}
+		50% {
+			letter-spacing: 4px;
+			
+		}
+		100% {
+			letter-spacing: 1px;			
+		}
+	}
+
+		.left h1 {
+		font-size: 15pt;}
+
+		.right h1 {
+		font-size: 25pt;}
+	
+	</style>
+</head>
+
+<body>
+
+	<div class="center">
+		<span class="text1">With the burgeoning use of Bluetooth more and more items</span>
+		<span class="text2">were developed to take advantage of it. One of those items was</span>
+		<span class="text3"> wireless speakers. Using Bluetooth with a wireless speaker is</span>
+		<span class="text4"> a match made in heaven. This combo yields, basically, a small</span>
+		<span class="text5"> radio station with a remote (within 300 ft or so) receiver.</span>
+	</div>
+
+	<a href="index.html">
+		<div class="left">
+			<h1>home</h1>
+			</div>
+	</a>
+
+
+	<a href="history6.html" >
+		<div class="right">
+			<h1> &#8250; </h1>
+			</div>
+	</a>
+
+
+	<script type="text/javascript">
+		var color = 200;
+
+setInterval( function(){
+	color = color + 1;
+	document.body.style.backgroundColor = "hsl(" + color + ", 100%, 50%)";
+}, 3000 / 60 );
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wireless Bluetooth Speaker</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.text1 {
+			top: 40%;
+			font-size: 20pt;
+			animation: text 1.5s 1;
+			letter-spacing: 1px;
+		}
+		.text2 {
+			top: 45%;
+			font-size: 20pt;
+			animation: text 2s 1;
+			letter-spacing: 1px;
+		}
+		.text3 {
+			top: 50%;
+			font-size: 20pt;
+			animation: text 2.5s 1;
+			letter-spacing: 1px;
+		}
+		.text4 {
+			top: 55%;
+			font-size: 20pt;
+			animation: text 3s 1;
+			letter-spacing: 1px;
+		}
+		.text5 {
+			top: 60%;
+			font-size: 20pt;
+			animation: text 3.5s 1;
+			letter-spacing: 1px;
+		}
+		.text6 {
+			top: 65%;
+			font-size: 20pt;
+			animation: text 3.5s 1;
+			letter-spacing: 1px;
+		}
+
+		@keyframes text {
+	0%{
+		color: black;		
+		}
+		50% {
+			letter-spacing: 4px;
+			
+		}
+		100% {
+			letter-spacing: 1px;			
+		}
+	}
+
+		.left h1 {
+		font-size: 40pt;}
+
+		.right h1 {
+		font-size: 25pt;}
+	
+	</style>
+</head>
+
+<body>
+
+	<div class="center">
+		<span class="text1">There were some difficulties that had to be overcome to make</span>
+		<span class="text2">this concept work. Radio frequencies can have trouble with signal </span>
+		<span class="text3"> signal errors caused by things like a low strength signal or blocked </span>
+		<span class="text4"> antennae. With wired speakers this is corrected by boosting</span>
+		<span class="text5"> the signal. The problem in a wireless signal is that the FCC</span>
+		<span class="text6">limit’s the strength of the signal used in consumer electronics.</span>
+	</div>
+
+	<a href="history4.html">
+		<div class="left">
+			<h1>&#8249;</h1>
+			</div>
+	</a>
+
+
+	<a href="history2.html" >
+		<div class="right">
+			<h1> &#8250; </h1>
+			</div>
+	</a>
+
+
+	<script type="text/javascript">
+		var color = 200;
+
+setInterval( function(){
+	color = color + 1;
+	document.body.style.backgroundColor = "hsl(" + color + ", 36%, 50%)";
+}, 3000 / 60 );
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		body {
+			display: flex;
+			flex-direction: row;
+		}
+		div {
+			flex:1;
+		}
+		div:nth-of-type(even) {background-color: sienna;}
+		div:nth-of-type(odd) {background-color: chocolate;}
+
+		@media (max-width: 700px) {
+			body  { 
+				flex-direction: column;
+			}
+		}
+
+		@media (hover: none) {
+			div:nth-of-type(even) {background-color: linen;}
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+
+</body>
+</html>
