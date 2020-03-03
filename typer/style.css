@@ -1,0 +1,96 @@
+
+body {
+
+background: linear-gradient(270deg, #000fb3, #7c00e9, #f000f6, #ff0051, #ff0000, #ff3600, #ff7900, #ffbd00);
+background-size: 1600% 1600%;
+
+-webkit-animation: backgrad 30s ease infinite;
+animation: backgrad 30s ease infinite;}
+
+@-webkit-keyframes backgrad {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+}
+@keyframes backgrad { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-family: 'helvetica';
+      font-size: 10pt;
+      letter-spacing: 1pt;
+      margin: 10px;
+    }
+.helvetica {
+    opacity: 40%;
+    padding: -10px;
+}
+.optician {
+    color: black;
+    padding: -10px;
+}
+.didot {
+    opacity: 40%;
+    padding: -10px;
+}
+
+
+/*html {
+   background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.5));
+}*/
+
+#cursor {
+  display: flex;
+  border-spacing: -10px;
+}
+
+
+#container {
+  width: 98%;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.inner {
+  max-width: 670px; 
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out; 
+  transition: 0.3s translateX(100%); 
+  -webkit-transition: 0.3s translateX(100%);}
+   
+.inner.active
+
+  /*flex-basis: 100px;
+ flex-shrink: 1
+  viewbox
+ preserveAspectRatio: "none" */
+  
+
+.inner:last-child {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 670px;
+}
+
+img {
+  flex-basis: 100%;
+  flex-shrink: 1;
+  width: 100%;
+  height: 670px;
+ }

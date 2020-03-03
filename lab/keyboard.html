@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title>keyboard handler</title>
+
+<body>
+	<p id="text"> </p>
+</body>
+
+<script type="text/javascript">
+	document.onkeypress = function(event) {
+		document.querySelector("#text").innerHTML = document.querySelector("#text").innerHTML + event.key
+		console.log("key press", event);
+		// a lot of the meta keys dont work
+	};
+
+	document.onkeydown = function(event) {
+		// every key press get and more
+		console.log("key down", event);
+	};
+
+		document.onkeyup = function(event) {
+		console.log("key up", event);
+	};
+
+//keycode is another key inside of event, where every
+</script>

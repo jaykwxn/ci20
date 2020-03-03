@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>functions</title>
+
+<script type="text/javascript">
+	
+
+	//this code doesnt run immediately. only when we tell it to
+	function randomInteger() {
+		//this is the code that's inside the function
+		var number = Math.floor(Math.random() * 255);
+	}
+
+	randomInteger();
+	var m = randomInteger();
+
+	var n = Math.random(); // this turns into a number
+
+	console.log(m);
+
+	function randomInteger2() {
+		//this is the code that's inside the function
+		var number = Math.floor(Math.random() * 256);
+		console.log(number);
+		return number;
+	}
+	var p = randomInteger2();
+	var q = randomInteger2();
+	var r = randomInteger2();
+	var s = randomInteger2();
+	console.log ("this one ->", p);
+
+	document.body.style.backgroundColor = "rgb(" + randomInteger2() + ",0," + randomInteger2() + ")";
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
