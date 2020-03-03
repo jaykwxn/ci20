@@ -14,7 +14,7 @@ $(document).ready(function() {
     createElement(char);
     var containerWidth = $("#container").width();
     $(".inner").css("width", containerWidth / displayCount);
-    $(".inner:last-child").css("width", "700px")
+    $(".inner:last-child").css("width", "670px")
     $(".inner").innerClass('show')
   });
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
       deleteElement();
       var containerWidth = $("#container").width();
     $(".inner").css("width", containerWidth / displayCount);
-    $(".inner:last-child").css("width", "700px")
+    $(".inner:last-child").css("width", "670px")
     };
   });
 });

@@ -34,7 +34,7 @@ a {
       margin: 10px;
     }
 .helvetica {
-    
+    color: black;
     opacity: 40%;
     padding: -10px;
 }
@@ -42,7 +42,7 @@ a {
     padding: -10px;
 }
 .didot {
-   
+   color: black;
     opacity: 40%;
     padding: -10px;
 }
