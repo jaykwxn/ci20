@@ -21,7 +21,7 @@ animation: backgrad 30s ease infinite;}
 
 a {
   text-decoration: none;
-  color: black;
+ 
 }
 
 .container1 {
@@ -34,6 +34,7 @@ a {
       margin: 10px;
     }
 .helvetica {
+   color: grey;
     opacity: 40%;
     padding: -10px;
 }
@@ -42,6 +43,7 @@ a {
     padding: -10px;
 }
 .didot {
+  color: grey;
     opacity: 40%;
     padding: -10px;
 }
