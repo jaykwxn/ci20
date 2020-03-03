@@ -21,7 +21,7 @@ animation: backgrad 30s ease infinite;}
 
 a {
   text-decoration: none;
- color: black;
+  color: black;
 }
 
 .container1 {
@@ -39,7 +39,6 @@ a {
     padding: -10px;
 }
 .optician {
-    color: black;
     padding: -10px;
 }
 .didot {
