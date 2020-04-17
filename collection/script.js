@@ -1,13 +1,3 @@
-/* -----------------------------------------------
-  Make sure you run a local server:
-  1. Open Terminal
-  2. "cd" into project directory
-  3. Type "php -S localhost:8000"
-  4. Go to "localhost:8000" from your browser
------------------------------------------------ */
-
-
-// read the JSON file
 var xmlhttp = new XMLHttpRequest();
 var url = "data-json.txt"; //your file name
 var data = [];
@@ -28,7 +18,6 @@ xmlhttp.send();
 
 
 function buildIndex(data){
-  //for each row of data:
   for (i = 0; i < data.length; i++){
     var item = document.createElement("li");
     item.classList.add('items');  
@@ -49,7 +38,7 @@ function buildIndex(data){
     var img = document.createElement('img');
     img.classList.add('imageClass');
     elem.setAttribute("href", "item.html?id="+ i);
-    img.setAttribute("src", "/images/"+i+".jpg");
+    img.setAttribute("src", "images/"+i+".jpg");
     //csv -> create new column called iamgeURL, 
 
     elem.appendChild(img);
