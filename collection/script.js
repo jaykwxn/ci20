@@ -46,6 +46,14 @@ function buildIndex(data){
     //elem.innerText = t3; //initally t3
 
 
+    //var audio = document.getElementById("myAudio"); 
+   // audio.setAttribute("src","audio/"+i+".mp3");
+
+  //function playAudio() { 
+  // audio.play(); } 
+
+  //function pauseAudio() { 
+  // audio.pause();
 
 
 
@@ -70,6 +78,7 @@ function buildItem(data){
   
   document.querySelector('.music').innerText = data[id].Music;
   document.querySelector('.innerImage').src = data[id].imageURL;
+  document.querySelector('.innerAudio').src = data[id].audioURL;
 
   var nextId, prevId;
   if (id == data.length - 1) {
